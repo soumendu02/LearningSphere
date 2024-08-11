@@ -4,7 +4,8 @@ import { Courses } from '../models/Courses.js'
 import {Lecture} from '../models/Lecture.js'
 import {User} from '../models/user.js'
 import crypto from 'crypto'
-import {} from '../models/Payment.js'
+import {Payment} from '../models/Payment.js'
+
 
 export const getAllCourses =TryCatch(async(req,res)=>{
     const courses = await Courses.find()
@@ -91,6 +92,7 @@ export const paymentVerification=TryCatch(async(req,res)=>{
         });
         const user =await User.findById(req.user._id)
         const course =await Courses.findById(req.params.id)
+        console.log("from coursejs controller")
         user.subscription.push(course._id)
         await user.save()
         res.status(200).json({

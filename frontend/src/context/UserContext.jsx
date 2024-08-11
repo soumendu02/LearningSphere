@@ -102,7 +102,8 @@ export const UserContextProvider = ({ children }) => {
       btnLoading,
       loading,
       registerUser,
-      verifyOtp}}>
+      verifyOtp,
+      fetchUser}}>
     {children}
     <Toaster></Toaster>
     </UserContext.Provider>
