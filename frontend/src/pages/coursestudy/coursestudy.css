@@ -1,0 +1,50 @@
+.course-study-page {
+    padding: 50px 0;
+    background-color: #a19cf5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+
+    img {
+            border: 2px solid #340eb3;
+            border-radius: 4px;
+            padding: 1px;
+            width: 300px;
+        }
+    h2 {
+        font-size: 24px;
+        color: #24162c;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 21px;
+        color: #24162c;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 20px;
+        color: #24162c;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: #54179a;
+        background-color: rgb(228, 172, 234);
+        padding: none;
+        border: 1px solid rgb(100, 3, 139);
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    a:hover {
+        background-color: rgb(63, 163, 75);
+        color:azure;
+        border: 2px solid rgb(123, 186, 14);
+    }
+    
+}

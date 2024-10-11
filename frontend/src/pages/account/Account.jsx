@@ -29,7 +29,7 @@ const Account = ({user}) => {
             <p>
                 <strong>email-{user.email}</strong>
             </p>
-            <button className="common-btn"><RiDashboardLine />Dashboard</button>
+            <button onClick={()=>navigate(`/${user._id}/dashboard`)} className="common-btn"><RiDashboardLine />Dashboard</button>
 
             <br />
             <button onClick={logouthandler} className="common-btn" style={{background:"red"}}><RiLogoutCircleRLine />Logout</button>
