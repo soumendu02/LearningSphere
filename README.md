@@ -1,0 +1,1 @@
+This is an eLearning website which provides an engaging experience for both learners and administrators. It leverages the MERN stack (MongoDB, Express, ReactJS, Node.js) with Vite for efficient build processes
